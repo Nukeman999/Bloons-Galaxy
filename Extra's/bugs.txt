@@ -1,0 +1,17 @@
+Bugs:
+
+Index search and user search not present in search.html
+Bloonsworld logo lower than normal in search.html
+users with html in their name glitch out
+there are still links redirecting to web archive
+random level button on search.html
+make no_intro work
+make random_levels work
+
+
+Idea's:
+
+make use of images inside play_files inside search.html
+make stats GUI inside website
+special settings GUI
+make flash-games-site like thumbnail menu mode for selecting levels

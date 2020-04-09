@@ -1,0 +1,499 @@
+ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {
+  margin: 0;
+  padding: 0;
+}
+
+object {
+  margin-bottom: 6px;
+  float: left;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+a img,:link img,:visited img {
+  border: none;
+}
+
+#header:hover{
+  border-bottom: none !important;
+  text-decoration: none !important;
+}
+
+#menu {
+  width: 192px;
+  margin: 0 10px 0 6px;
+  padding: 4px 0 0 0;
+  float: left;
+  background: white;
+  overflow:hidden;
+  _margin-left: 3px;
+}
+
+#menu a {
+  border: none !important;
+margin-left: -3px;
+}
+
+#menu li {
+  list-style-type: none;
+}
+
+.skyscraper {
+  float: left;
+  width: 180px;
+  display: block;
+}
+
+.skyscraper.rhs {
+  _float: right;
+  _clear: left;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom-width: 1px;
+  border-bottom-style: solid !important;
+  text-decoration: none;
+}
+
+body, td {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Verdana, sans-serif;
+}
+
+h1, h2, h3, h4 {
+  line-height: 1.5;
+}
+
+td {
+  padding: 0 10px 0 0;
+}
+
+body {
+  padding: 20px;
+  margin: 0 auto;
+}
+
+html{
+  display: block;
+background: white url(bg1.gif) repeat-x;
+
+}
+
+body {
+  display: block;
+  background: url(bg2.gif);
+  text-align: center;
+  min-height: 1050px;
+}
+
+.cloud {
+  width: 300px;
+  display: none;
+  background: url(clouds.gif);
+  height: 200px;
+  position: absolute;
+}
+
+#wrapper {
+  width: 1024px;
+  margin: 0 auto;
+  display: block;
+  min-height: 400px;
+  position: relative;
+}
+
+#inner_wrapper {
+  float: left;
+  width: 1024px;
+  padding: 0;
+  display: block;
+  background: url(alpha.png);
+  _background: #A2DAFF;
+  overflow: hidden;
+}
+
+#header {
+  width: 750px;
+  margin: 2px auto;
+  margin-bottom: -8px;
+  display: block;
+  background-image: url(bloonsworldplay.png);
+  height: 130px;
+}
+
+.ad {
+  float: left;
+  margin: 10px;
+  display: block;
+  text-align: center;
+  _margin-left: 5px !important;
+  _margin-right: 5px !important;
+}
+
+.ad_720x90 {
+  width: 720px;
+  height: 90px;
+}
+
+.ad_160x600 {
+  width: 160px;
+  margin: 0 5px 10px 10px;
+  margin-right: 5px !important;
+  height: 600px;
+}
+
+#content {
+  width: 640px;
+  float: left;
+  margin: 0px;
+  padding-bottom: 10px;
+  display: block;
+  _height: 315px;
+  margin-left: -4px;
+}
+
+#content div.wide,
+#content div.left,
+#content div.right{
+  float: left;
+  border: 10px solid #FFFFFF;
+  width: 275px;
+  margin-right: 10px;
+  padding: 20px 10px 40px 10px;
+  display: block;
+  background: #ep;
+  color: #FFFFFF;
+  font-size: 20px;
+  text-align: left;
+  background: #0099ff;
+  _margin-left: 5px;
+}
+
+div.flash {
+  padding: 0 !important;
+  width: 620px !important;
+}
+
+.flash object {
+   margin-bottom: 0px;
+}
+
+.light {
+  background-color:#4AB7FF !important;
+}
+
+#content div h4 {
+}
+
+#content li {
+  margin-left: 30px;
+}
+
+#content div.left {
+  margin-bottom: 5px;
+  _margin-left: 0;
+}
+
+#content div.right {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+#content div a {
+  border-bottom: 1px dotted #FFFFFF;
+  color: #FFFFFF;
+}
+
+#content div a:hover {
+  border-bottom: 1px solid #FFFFFF;
+}
+
+#content div.wide {
+  width: 580px;
+  padding: 10px 20px;
+  margin: 0 0 5px 0 !important;
+}
+
+#horizontal_header {
+  margin: 10px 0 5px 10px;
+  float: left;
+  width: 1004px;
+  display: block;
+  background: #FFFFFF;
+  height: 110px;
+  _margin-left: 5px;
+  _height: 107px !important;
+  _overflow:hidden;
+}
+
+#login_box {
+  width: 222px;
+  float: left;
+  margin:  11px;
+  padding: 3px 8px;
+  display: block;
+  background: #0099FF;
+  color: #FFFFFF;
+  text-align: left;
+  height: 82px;
+  _margin: 9px 5px;
+}
+
+#login_box h3 {
+  font-size: 11px;
+}
+
+#login_box a {
+  border-bottom: 1px dotted #FFFFFF;
+  color: #FFFFFF;
+  margin: 0 2px;
+  _margin: 0 0 2px 0;
+}
+
+#login_box label {
+  width: 50px;
+  display: block;
+  font-size: 12px;
+  text-align: left;
+}
+
+#login_box input {
+  margin-top: -1px;
+  width: 145px;
+  margin: -1px auto;
+  display:block;
+}
+
+#register_box label{
+  width: 210px;
+  float: left;
+  margin-top: 16px;
+  display: block;
+}
+
+#register_box input {
+  padding: 2px;
+  width: 340px;
+  float: left;
+  margin-top: 15px;
+  display: block;
+  font-size: 18px;
+}
+
+#content div.form_error {
+  border: none;
+  float:left;
+  width: 550px;
+  padding: 4px;
+  margin: 20px 0 10px 0;
+  background: #FCFCFC;
+  color: #FF0000;
+}
+
+input#register_button {
+  width: 100px;
+  padding: 4px;
+  float:right;
+  margin-right: 20px;
+}
+
+.pagination {
+  width: 100%;
+  padding: 5px;
+  margin-top: 10px;
+  display: block;
+  text-align: center;
+}
+
+.pagination a, .pagination span {
+  padding: 3px 7px;
+}
+
+.pagination a:hover {
+  background: #FFFFFF;
+  color: #0099FF !important;
+}
+
+table#levels_table {
+  border: 1px dotted #4FB8FF;
+  font-size: 16px;
+  border-collapse: collapse;
+}
+
+tr.odd {
+  background-color: #1FA5FF;
+}
+
+#content div table td{
+  padding: 0 !important;
+  border-bottom: 1px dotted #4FB8FF;
+}
+
+#content div table th {
+  padding: 4px 6px;
+  border: 1px solid #FFFFFF;
+  background: #FFFFFF;
+  color: #0099FF;
+}
+
+#content div table {
+  width: 100%;
+  margin: 10px 0 0 0;
+}
+
+#content div table a {
+  padding: 4px 6px;
+  border-bottom: none;
+  display: block;
+  text-decoration: underline;
+}
+
+#content div table a:hover{
+  border-bottom: none !important;
+  display: block;
+  background: #FFFFFF;
+  color: #0099FF;
+}
+
+#terms {
+  padding: 20px;
+  margin: 10px 10px 30px 10px;
+  height: 300px;
+  overflow: auto;
+  outline: 1px solid #FFFFFF;
+}
+
+#terms_agree {
+  margin: 5px;
+}
+
+#terms_form input {
+  padding: 5px 10px;
+}
+
+#content div a.homepage_button {
+  position:relative;
+  float:left;
+  margin: 10px 0px 10px 100px; 
+  border-bottom: none !important;
+  text-decoration:none !important;
+}
+
+.wide.centered {
+  text-align: center !important;
+}
+
+.centered {
+  text-align: center;
+  width: 100%;
+}
+
+label.radio {
+  font-size: 14px;
+  text-align: right;
+  height: 14px;
+  float:left;
+  clear:left;
+  margin: 4px 10px 0 60px !important;
+}
+
+label.fullwidth {
+  width: 500px !important;
+}
+
+input.radio {
+  width: auto !important;
+  float:left;
+  margin: 8px 0 0 10px !important
+}
+
+#content div.wide.full {
+  width: 900px !important;
+  margin-left: 40px !important;
+  margin-top: 20px !important;
+  padding-bottom: 40px;
+  margin-bottom: 50px !important;
+}
+
+#searchbox {
+  background: #0099FF;
+  width: 170px;
+  margin: 5px 0 10px 5px;
+  float:left;
+  padding: 10px 0 0 0;
+  display:block;
+  border: 10px solid white;
+}
+
+#searchbox input {
+  padding: 3px;
+}
+
+#searchbox input.submit {
+  width: 60px;
+  margin: 5px 0 10px 90px;
+}
+
+#remember {
+  margin: 2px 4px 0 0 !important;
+  height: 15px !important;
+  padding: 0 !important;
+}
+
+#remember_label {
+  margin: 3px 0 0 0 !important;
+}
+
+#login_box #remember_label, #login_box #remember {
+  float:left !important;
+  width: auto !important; 
+  height: auto !important;
+  float:left !important;
+}
+
+#login {
+  width: 120px !important;
+  float:right;
+}
+
+.skyscraper.rhs .ad{
+margin: 0 auto;
+height: 600px;
+width: 160px;
+margin-left: 20px;
+margin-bottom: 10px;
+}
+
+.skyscraper.rhs .ad * {
+margin: 0 auto;
+}
+/*
+     FILE ARCHIVED ON 06:55:06 Oct 07, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 01:16:46 Dec 18, 2018.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  LoadShardBlock: 155.838 (3)
+  esindex: 0.015
+  captures_list: 424.668
+  CDXLines.iter: 58.081 (3)
+  PetaboxLoader3.datanode: 191.0 (4)
+  exclusion.robots: 199.326
+  xauthn.chkprivs: 0.096
+  exclusion.robots.policy: 199.305
+  RedisCDXSource: 2.036
+  PetaboxLoader3.resolve: 54.898 (2)
+  xauthn.identify: 198.689
+  load_resource: 131.321
+*/
