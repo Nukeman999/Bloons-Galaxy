@@ -1,0 +1,21 @@
+Bad_level_filter = False
+Server_port = 80
+Random_levels = True
+No_intro = False
+
+
+##### Info #####
+
+{Bad_level_filter} -- Set this to True if you want to filter out like 20-25 level creators who mass-spam the same levels. (will also cause your levels progress on top right to react accordingly.)
+
+{Server_port} -- Change this port to anything else if you already run a server at port 80, else don't.
+
+{Random_levels} -- Set this to False if you only want to play levels that you haven't beaten already.
+
+{No_intro} -- Set to true to disable ninjakiwi's intro everytime you load a level.
+
+
+pls dont change any settings yet. They are currently broken and if you change them the server might just explode. even port is fixed to port 80 since it's in html. i will fix this sometime.
+
+
+####       #####
